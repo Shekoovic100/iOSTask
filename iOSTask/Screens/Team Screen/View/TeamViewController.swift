@@ -22,7 +22,7 @@ class TeamViewController: UIViewController {
     var team: Team?
     
     
-    //MARK: - lifcycle
+    //MARK: - lifCycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +30,6 @@ class TeamViewController: UIViewController {
         displayTeamDetails()
     }
     
-
 }
 
 //MARK: - Display Team Details

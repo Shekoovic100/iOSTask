@@ -42,7 +42,6 @@ class TeamTableViewCell: UITableViewCell {
         }else {
             teamImageView.image = UIImage(named: "default")
         }
-        
     }
 
 }

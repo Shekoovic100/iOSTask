@@ -49,7 +49,6 @@ extension HomeViewController {
 }
 
 
-
 //MARK: - TableView Methods
 
 extension HomeViewController: UITableViewDataSource {
@@ -69,7 +68,7 @@ extension HomeViewController: UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 190
+        return 170
     }
     
 }
