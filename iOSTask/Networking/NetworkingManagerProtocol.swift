@@ -35,7 +35,7 @@ extension NetworkingManagerProtocol {
         
         var request = URLRequest(url: url)
         request.httpMethod = method.rawValue
-        request.addValue("af8a48793d164be7a9931d4f747296fb", forHTTPHeaderField: "X-Auth-Token")
+        request.addValue("", forHTTPHeaderField: "X-Auth-Token")
         
         session.dataTask(with: request) { data, response, error in
             
